@@ -493,6 +493,7 @@ footer.footer {
   content: url('https://api.iconify.design/material-symbols/mail.svg?color=white&width=32&height=32');
 }
 
+
 @media (max-width: 1330px) {
   /* Experiencia */
   .experience__box,
