@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;400;700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 
 :root {
   --font-family: "Raleway", sans-serif;
+  --font-footer: "Montserrat", sans-serif;
   --color-texto: rgb(70, 70, 70);
   --color-texto-hover: rgb(0, 0, 0);
   --color-fondo: rgb(245, 245, 245);
@@ -472,6 +474,23 @@ footer.footer {
 
 .footer__text {
   color: aliceblue;
+  font-family: var(--font-footer);
+}
+
+.footer__contact{
+  padding: 10px;
+}
+
+.footer__linkedin{
+  content: url('https://api.iconify.design/mdi/linkedin.svg?color=white&width=32&height=32');
+}
+
+.footer__github{
+  content: url('https://api.iconify.design/mdi/github.svg?color=white&width=32&height=32');
+}
+
+.footer__mail{
+  content: url('https://api.iconify.design/material-symbols/mail.svg?color=white&width=32&height=32');
 }
 
 @media (max-width: 1330px) {
