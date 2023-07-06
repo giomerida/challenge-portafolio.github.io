@@ -734,8 +734,26 @@ footer.footer {
   }
 
   .academic__img {
-    width: 27%;
+    width: 30%;
   }
+
+  .academic__text--title,
+  .academic__text--date{
+    text-align: center;
+  }
+
+  /* Formulario */
+ .contacto__title,
+ .contacto__subtitle,
+ .contacto__subtext{
+  text-align: center;
+}
+
+  .contacto__submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 @media (max-width: 425px) {
@@ -779,5 +797,23 @@ footer.footer {
   /* Académica */
   .academic__img {
     width: 45%;
+  }
+
+  .academic__text--title,
+  .academic__text--date{
+    text-align: center;
+  }
+
+    /* Formulario */
+  .contacto__title,
+  .contacto__subtitle,
+  .contacto__subtext{
+    text-align: center;
+  }
+  
+    .contacto__submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
