@@ -210,6 +210,10 @@ header.menu {
   content: url('https://api.iconify.design/pepicons-pop/cv.svg?color=black&width=30&height=30');
 }
 
+.bottom__cv{
+  padding: 0 0 1.5rem 0;
+}
+
 .enlace__cv{
   font-size: 1.6rem;
   font-weight: 400;
@@ -292,6 +296,12 @@ p.about__paragraph {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.academic__figure:hover{
+  -webkit-box-shadow: 0px 10px 13px -5px #333333,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -5px #333333, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .academic__text--date {
@@ -553,6 +563,10 @@ footer.footer {
     margin-top: 1rem;
   }
 
+  .bottom__cv{
+    margin: 1.2rem;
+  }
+
   /* Contacto */
   .contacto__container {
     grid-template-columns: 1fr;
@@ -671,7 +685,11 @@ footer.footer {
   }
 
   .title__figure {
-    width: 9.8rem;
+    width: 15rem;
+  }
+
+  .title__text--primary{
+    text-align: center;
   }
 
   .title__text--paragraph,
@@ -681,6 +699,7 @@ footer.footer {
 
   .title__text--paragraph {
     font-size: 1.4rem;
+    text-align: center;
   }
 
   /* Académica */
@@ -697,11 +716,32 @@ footer.footer {
   /* Title */
   .title__figure{
     width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .title__network {
     gap: 0;
     justify-content: space-between;
+  }
+
+  .bottom__cv{
+    margin: 1.2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about__title,
+  .about__paragraph{
+    text-align: center;
+  }
+
+  .about__signature{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Skills y Hobbies */
