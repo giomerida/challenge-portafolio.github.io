@@ -198,20 +198,9 @@ header.menu {
   gap: 3.2rem;
 }
 
-.title__linkedin{
-  content: url('https://api.iconify.design/mdi/linkedin.svg?color=black&width=32&height=32');
-}
-
-.title__github{
-  content: url('https://api.iconify.design/mdi/github.svg?color=black&width=32&height=32');
-}
-
-.title__instagram{
-  content: url('https://api.iconify.design/mdi/instagram.svg?color=black&width=32&height=32');
-}
-
-.title__cv{
-  content: url('https://api.iconify.design/pepicons-pop/cv.svg?color=black&width=30&height=30');
+.icon__link i{
+  font-size: 3rem;
+  padding-left: 10px;
 }
 
 .bottom__cv{
@@ -549,18 +538,11 @@ footer.footer {
   padding: 10px;
 }
 
-.footer__linkedin{
-  content: url('https://api.iconify.design/mdi/linkedin.svg?color=white&width=32&height=32');
+.footer__link i{
+  font-size: 3rem;
+  padding-left: 10px;
+  color: #ffffff;
 }
-
-.footer__github{
-  content: url('https://api.iconify.design/mdi/github.svg?color=white&width=32&height=32');
-}
-
-.footer__mail{
-  content: url('https://api.iconify.design/material-symbols/mail.svg?color=white&width=32&height=32');
-}
-
 
 @media (max-width: 1330px) {
   /* Experiencia */
