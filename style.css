@@ -686,6 +686,9 @@ footer.footer {
 
   .title__figure {
     width: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .title__text--primary{
