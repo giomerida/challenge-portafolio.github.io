@@ -697,9 +697,21 @@ footer.footer {
     margin-top: 1.6rem;
   }
 
+  .title__network {
+    gap: 0;
+    justify-content: space-between;
+  }
+
   .title__text--paragraph {
     font-size: 1.4rem;
     text-align: center;
+  }
+
+  .bottom__cv{
+    margin: 1.2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Académica */
