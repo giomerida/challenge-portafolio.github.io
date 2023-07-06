@@ -326,26 +326,45 @@ p.about__paragraph {
 }
 
 .experience__box {
+  width: 100%;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   display: flex;
-  align-items: center;
-  gap: 1.6rem;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .experience__box:nth-child(even) {
   flex-direction: row-reverse;
 }
 
+.experience__img{
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .experience__info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.8rem;
+  display: block;
+  padding: 3rem 5rem 3rem 2rem;
+}
+
+.experience__text--title{
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.experience__text--description{  
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 2rem;
 }
 
 .experience__container-enlace {
-  text-align: center;
   display: flex;
-  gap: 1.6rem;
+  gap: 1rem;
 }
 
 .experience__enlace--cv{
