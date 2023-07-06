@@ -167,6 +167,10 @@ header.menu {
   font-weight: 700;
 }
 
+.menu__img{
+  content: url('https://api.iconify.design/emojione-monotone/letter-g.svg?color=white&width=24&height=24');
+}
+
 /* Title */
 .title__container {
   display: grid;
