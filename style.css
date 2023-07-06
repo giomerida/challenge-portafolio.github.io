@@ -194,6 +194,36 @@ header.menu {
   gap: 3.2rem;
 }
 
+.title__linkedin{
+  content: url('https://api.iconify.design/mdi/linkedin.svg?color=black&width=32&height=32');
+}
+
+.title__github{
+  content: url('https://api.iconify.design/mdi/github.svg?color=black&width=32&height=32');
+}
+
+.title__instagram{
+  content: url('https://api.iconify.design/mdi/instagram.svg?color=black&width=32&height=32');
+}
+
+.title__cv{
+  content: url('https://api.iconify.design/pepicons-pop/cv.svg?color=black&width=30&height=30');
+}
+
+.enlace__cv{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: aliceblue;
+  padding: 1.2rem 1.6rem;
+  background: var(--color-blue);
+  margin-bottom: -2rem 0;
+}
+
+.enlace__cv:hover{
+  transition: background-color 1s ease;
+  color: #000000;
+}
+
 /* About */
 .about__container {
   max-width: 75.1rem;
@@ -305,7 +335,7 @@ p.about__paragraph {
   padding: 1.2rem 1.6rem;
   border: 1px solid var(--color-blue);
   transition: background-color 0.5s ease;
-  margin-bottom: -2rem;
+  margin-bottom: -2rem 0;
 }
 
 .experience__enlace--repo,
