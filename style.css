@@ -717,6 +717,17 @@ footer.footer {
     margin-right: auto;
   }
 
+  .about__title,
+  .about__paragraph{
+    text-align: center;
+  }
+
+  .about__signature{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /* Académica */
   .academic__container {
     grid-template-columns: 1fr;
