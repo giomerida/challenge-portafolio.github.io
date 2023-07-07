@@ -548,7 +548,8 @@ footer.footer {
   /* Experiencia */
   .experience__box,
   .experience__box:nth-child(even) {
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     max-width: 752px;
   }
 
@@ -752,6 +753,10 @@ footer.footer {
     text-align: center;
   }
 
+  .experience__info{
+    padding: 3rem 1rem 3rem 1rem;
+  }
+
   /* Formulario */
  .contacto__title,
  .contacto__subtitle,
@@ -766,7 +771,7 @@ footer.footer {
 }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 425px) {  
   /* Title */
   .title__figure{
     width: 200px;
@@ -812,6 +817,16 @@ footer.footer {
   .academic__text--title,
   .academic__text--date{
     text-align: center;
+  }
+
+  .experience__enlace--demo,
+  .experience__enlace--repo{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .experience__text--description{
+    size: 2.5rem;
   }
 
     /* Formulario */
