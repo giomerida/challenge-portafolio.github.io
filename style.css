@@ -217,6 +217,10 @@ header.menu {
   padding-left: 10px;
 }
 
+.icon__link i:hover{
+  color: var(--color-blue-hover);
+}
+
 .bottom__cv{
   padding: 1rem 0 1.5rem 0;
 }
@@ -224,15 +228,17 @@ header.menu {
 .enlace__cv{
   font-size: 1.6rem;
   font-weight: 400;
-  color: aliceblue;
+  color: var(--color-white);
   padding: 1.2rem 1.6rem;
   background: var(--color-blue);
   margin-bottom: -2rem 0;
+  border-radius: 10px;
 }
 
 .enlace__cv:hover{
-  transition: background-color 5s ease;
-  color: #000000;
+  transition: background-color 1s ease;
+  color: var(--color-white);
+  background: var(--color-blue-hover);
 }
 
 /* About */
@@ -393,6 +399,11 @@ p.about__paragraph {
 
 .experience__enlace--repo {
   color: var(--color-blue);
+  border-radius: 10px;
+}
+
+.experience__enlace--demo{
+  border-radius: 10px;
 }
 
 .experience__enlace--demo,
@@ -403,8 +414,8 @@ p.about__paragraph {
 }
 
 .experience__enlace--repo:hover {
-  color: var(--color-blue);
-  background-color: var(--color-fondo-hover);
+  color: var(--color-white);
+  background-color: var(--color-blue);
 }
 
 .experience__enlace--demo:hover,
