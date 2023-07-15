@@ -104,8 +104,22 @@ a {
   color: aliceblue;
 }
 
+.menu__listen:after{
+  content: "";
+  display: block;
+  margin-left: 0;
+  background-color: var(--color-blue-hover);
+  height: 3px;
+  width: 0;
+  transition: 0.3s;
+}
+
+.menu__listen:hover:after{
+  width: 100%;
+}
+
 a:hover {
-  color: var(--color-blue-hover);
+  color: var(--color-fondo-hover);
 }
 
 .skills__icon,
@@ -345,10 +359,11 @@ p.about__paragraph {
 }
 
 .experience__text--description{  
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.5;
     margin-bottom: 2rem;
+    font-family: var(--font-footer);
 }
 
 .experience__container-enlace {
@@ -434,6 +449,11 @@ p.about__paragraph {
 .contacto__subtext {
   font-size: 1.6rem;
   font-weight: 500;
+}
+
+.contacto__img{
+  display: flex;
+  width: 80%;
 }
 
 .contacto__form {
