@@ -591,6 +591,26 @@ footer.footer {
   color: #ffffff;
 }
 
+#btnScrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#btnScrollToTop:hover {
+  background-color: #0056b3;
+}
+
+
 @media (max-width: 1330px) {
   /* Experiencia */
   .experience__box,
