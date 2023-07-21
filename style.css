@@ -926,3 +926,10 @@ footer.footer {
     margin-right: auto;
   }
 }
+/* Media query para pantallas de 360px o menos */
+@media (max-width: 368px) {
+  .enlace__cv {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
