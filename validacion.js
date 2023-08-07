@@ -4,19 +4,19 @@ document.getElementById('form').addEventListener('submit', function(event) {
   
     // Obtén los valores de los campos del formulario
     var nombre = document.getElementById('nombre').value;
-    var correo = document.getElementById('correo').value;
+    var correo = document.getElementById('email').value;
     var asunto = document.getElementById('asunto').value;
     var mensaje = document.getElementById('mensaje').value;
   
     // Realiza la validación de los campos del formulario
-    if (nombre === '' || correo === '' || asunto === '' || mensaje === '') {
+    if (nombre === '' || email === '' || asunto === '' || mensaje === '') {
       alert('Por favor, completa todos los campos del formulario.');
       return;
     }
   
     // Construye el cuerpo del mensaje de correo electrónico
     var contenido = 'Nombre: ' + nombre + '\n';
-    contenido += 'Correo electrónico: ' + correo + '\n';
+    contenido += 'E-mail: ' + email + '\n';
     contenido += 'Asunto: ' + asunto + '\n';
     contenido += 'Mensaje: ' + mensaje;
   
@@ -34,7 +34,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
       }
     };
     xhr.send('nombre=' + encodeURIComponent(nombre) +
-             '&correo=' + encodeURIComponent(correo) +
+             '&email=' + encodeURIComponent(email) +
              '&asunto=' + encodeURIComponent(asunto) +
              '&mensaje=' + encodeURIComponent(mensaje));
   });
