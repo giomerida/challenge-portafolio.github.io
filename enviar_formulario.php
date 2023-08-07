@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $nombre = $_POST['nombre'];
-  $correo = $_POST['correo'];
+  $correo = $_POST['email'];
   $asunto = $_POST['asunto'];
   $mensaje = $_POST['mensaje'];
 
@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $asuntoCorreo = 'Nuevo mensaje del formulario de contacto';
 
   $contenido = "Nombre: $nombre\n";
-  $contenido .= "Correo electrónico: $correo\n";
+  $contenido .= "E-mail: $email\n";
   $contenido .= "Asunto: $asunto\n";
   $contenido .= "Mensaje: $mensaje\n";
 

@@ -41,6 +41,7 @@ section.about,
 section.academic,
 section.contacto {
   background-color: var(--color-fondo-section);
+  background-image: url(img);
 }
 
 img,
