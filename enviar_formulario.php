@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $mensaje = $_POST['mensaje'];
 
   $destinatario = 'giomerida@cuttux.com';
-  $asuntoCorreo = 'Nuevo mensaje del formulario de contacto';
+  $asuntoCorreo = 'Nuevo mensaje del portafolio V.1';
 
   $contenido = "Nombre: $nombre\n";
   $contenido .= "E-mail: $email\n";
