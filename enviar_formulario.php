@@ -21,4 +21,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo 'Error al enviar el mensaje. Por favor, intenta nuevamente.';
   }
 }
+
+if (empty($nombre)) {
+  echo 'El campo "Nombre" es obligatorio.';
+  exit;
+}
+
+if (!filter_var($correo, FILTER_VALIDATE_EMAIL)) {
+  echo 'El campo "E-mail" no es un correo electrónico válido.';
+  exit;
+}
+
+if (empty($asunto)) {
+  echo 'El campo "Asunto" es obligatorio.';
+  exit;
+}
+
+if (empty($mensaje)) {
+  echo 'El campo "Mensaje" es obligatorio.';
+  exit;
+}
+
+// Informe de errores
+if (!mail($destinatario, $asuntoCorreo, $contenido, $cabeceras)) {
+  echo 'Error al enviar el mensaje: ' . error_get_last()['message'];
+}
 ?>
