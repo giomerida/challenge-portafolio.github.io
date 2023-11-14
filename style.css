@@ -837,7 +837,8 @@ footer.footer {
   }
 
   .about__title,
-  .about__paragraph{
+  .about__paragraph,
+  .enlace__cv{
     text-align: center;
   }
 
