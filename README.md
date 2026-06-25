@@ -1,173 +1,229 @@
-🧑‍💻 Portafolio Personal — Alexis Giovanni Mérida Arévalo
+# 🧑‍💻 Portafolio Personal — Alexis Giovanni Mérida Arévalo
 
-Mostrar imagen
-Mostrar imagen
-Mostrar imagen
-Mostrar imagen
+![Estado](https://img.shields.io/badge/estado-activo-brightgreen)
+![Tecnología](https://img.shields.io/badge/tecnología-HTML%20%7C%20CSS%20%7C%20JavaScript-orange)
+![Deploy](https://img.shields.io/badge/deploy-GitHub%20Pages-black)
+![Año](https://img.shields.io/badge/2023--2026-GioDev-blueviolet)
 
-Portafolio web personal de Alexis Giovanni Mérida Arévalo, Developer Front-End Jr. y Diseñador Gráfico con más de 7 años de experiencia en desarrollo web. Desarrollado como parte del Challenge Portfolio de Oracle ONE G5 — Alura Latam 2023, el sitio exhibe proyectos reales, habilidades técnicas, formación académica y un formulario de contacto.
+Portafolio web personal de **Alexis Giovanni Mérida Arévalo**, Developer Front-End Jr. y Diseñador Gráfico con más de 7 años de experiencia en desarrollo web. Desarrollado como parte del **Challenge Portfolio de Oracle ONE G5 — Alura Latam 2023**, el sitio exhibe proyectos reales, habilidades técnicas, formación académica y un formulario de contacto.
 
-🔗 Demo en vivo: https://giomerida.github.io/challenge-portafolio.github.io/
+🔗 **Demo en vivo:** [https://giomerida.github.io/challenge-portafolio.github.io/](https://giomerida.github.io/challenge-portafolio.github.io/)
 
-📋 Tabla de Contenidos
+---
 
-Sobre el proyecto
-Capturas de pantalla
-Tecnologías utilizadas
-Instalación y uso
-Secciones del portafolio
-Proyectos destacados
-Formación académica
-Estructura del proyecto
-Contacto
+## 📋 Tabla de Contenidos
 
-📌 Sobre el proyecto
+- [Sobre el proyecto](#-sobre-el-proyecto)
+- [Capturas de pantalla](#-capturas-de-pantalla)
+- [Tecnologías utilizadas](#-tecnologías-utilizadas)
+- [Instalación y uso](#-instalación-y-uso)
+- [Secciones del portafolio](#-secciones-del-portafolio)
+- [Proyectos destacados](#-proyectos-destacados)
+- [Formación académica](#-formación-académica)
+- [Estructura del proyecto](#-estructura-del-proyecto)
+- [Contacto](#-contacto)
 
-Este portafolio fue construido como Challenge de Alura Latam dentro del programa Oracle ONE G5 (2023) y ha sido actualizado continuamente hasta 2026. Tiene como objetivo presentar de forma profesional el perfil, habilidades y trayectoria de Giovanni Mérida como desarrollador web freelance y diseñador gráfico.
+---
 
-Características principales:
+## 📌 Sobre el proyecto
 
-✅ Diseño responsivo adaptable a todos los dispositivos
-✅ Navegación suave entre secciones con anclas
-✅ Galería de proyectos con mockups visuales, tecnologías usadas y enlaces al repositorio y demo
-✅ Sección de habilidades con íconos tecnológicos
-✅ Formulario de contacto integrado
-✅ Botón de agenda de reunión con Google Calendar
-✅ Botón flotante de WhatsApp
-✅ Descarga directa del CV en PDF
-✅ Desplegado con GitHub Pages sin dependencias externas
+Este portafolio fue construido como **Challenge de Alura Latam** dentro del programa **Oracle ONE G5 (2023)** y ha sido actualizado continuamente hasta 2026. Tiene como objetivo presentar de forma profesional el perfil, habilidades y trayectoria de Giovanni Mérida como desarrollador web freelance y diseñador gráfico.
 
-📸 Capturas de pantalla
+**Características principales:**
 
-🏠 Hero — Presentación
+- ✅ Diseño responsivo adaptable a todos los dispositivos
+- ✅ Navegación suave entre secciones con anclas
+- ✅ Galería de proyectos con mockups visuales, tecnologías usadas y enlaces al repositorio y demo
+- ✅ Sección de habilidades con íconos tecnológicos
+- ✅ Formulario de contacto integrado
+- ✅ Botón de agenda de reunión con Google Calendar
+- ✅ Botón flotante de WhatsApp
+- ✅ Descarga directa del CV en PDF
+- ✅ Desplegado con GitHub Pages sin dependencias externas
 
-Mostrar imagen
+---
 
-🛠️ Skills y Herramientas
+## 📸 Capturas de pantalla
 
-Mostrar imagen
+### 🏠 Hero — Presentación
 
-💼 Proyectos
+![Hero](assets/screenshots/hero.png)
 
-Mostrar imagen
+### 🛠️ Skills y Herramientas
 
-📬 Contacto
+![Skills](assets/screenshots/skills.png)
 
-Mostrar imagen
+### 💼 Proyectos
 
-🛠️ Tecnologías utilizadas
+![Proyectos](assets/screenshots/proyectos.png)
 
-TecnologíaUsoHTML5Estructura semántica del sitioCSS3Estilos, animaciones y diseño responsivoJavaScript (Vanilla)Interactividad, navegación y formularioGitHub PagesHosting y despliegue continuo
+### 📬 Contacto
 
-🚀 Instalación y uso
+![Contacto](assets/screenshots/contacto.png)
 
-El proyecto no requiere instalación de dependencias. Solo clona el repositorio y abre el archivo index.html.
+---
 
-Clonar el repositorio
+## 🛠️ Tecnologías utilizadas
 
-bashgit clone https://github.com/giomerida/challenge-portafolio.github.io.git
+| Tecnología               | Uso                                      |
+| ------------------------ | ---------------------------------------- |
+| **HTML5**                | Estructura semántica del sitio           |
+| **CSS3**                 | Estilos, animaciones y diseño responsivo |
+| **JavaScript (Vanilla)** | Interactividad, navegación y formulario  |
+| **GitHub Pages**         | Hosting y despliegue continuo            |
+
+---
+
+## 🚀 Instalación y uso
+
+El proyecto no requiere instalación de dependencias. Solo clona el repositorio y abre el archivo `index.html`.
+
+### Clonar el repositorio
+
+```bash
+git clone https://github.com/giomerida/challenge-portafolio.github.io.git
 cd challenge-portafolio.github.io
+```
 
-Ejecutar localmente
+### Ejecutar localmente
 
-Abre index.html directamente en tu navegador, o usa un servidor local:
+Abre `index.html` directamente en tu navegador, o usa un servidor local:
 
-bash# Con Python 3
+```bash
+# Con Python 3
 python -m http.server 8080
 
 # Con Node.js
-
 npx serve .
+```
 
-Visita http://localhost:8080 en tu navegador.
+Visita `http://localhost:8080` en tu navegador.
 
-📂 Secciones del portafolio
+---
 
-👤 Sobre mí
+## 📂 Secciones del portafolio
+
+### 👤 Sobre mí
 
 Presentación personal: Licenciado en Diseño Gráfico, estudiante de Marketing Digital en la UNICACH y graduado del programa Oracle ONE G5 de Alura Latam. Con 7 años de experiencia en desarrollo web con HTML, CSS, JavaScript y React, y 6 años creando sitios en WordPress con Elementor Pro y WooCommerce. Radicado en Tuxtla Gutiérrez, Chiapas, México.
 
-🧰 Skills
+### 🧰 Skills
 
 Lenguajes y frameworks dominados:
 
-HTML5 · CSS3 · JavaScript · PHP · Node.js · React · Angular · Astro
+`HTML5` · `CSS3` · `JavaScript` · `PHP` · `Node.js` · `React` · `Angular` · `Astro`
 
-🔧 Tools
+### 🔧 Tools
 
 Herramientas de trabajo:
 
-VS Code · Git · GitHub · Figma · WordPress · Elementor · WooCommerce · Gutenberg · cPanel · Shopify · Trello · Photoshop · Illustrator · CorelDraw · Notion
+`VS Code` · `Git` · `GitHub` · `Figma` · `WordPress` · `Elementor` · `WooCommerce` · `Gutenberg` · `cPanel` · `Shopify` · `Trello` · `Photoshop` · `Illustrator` · `CorelDraw` · `Notion`
 
-🎮 Hobbies
+### 🎮 Hobbies
 
 Natación · Jugar con perros · Música · Series · Cocinar · Videojuegos
 
-🎓 Formación
+### 🎓 Formación
 
 Ver sección completa más abajo.
 
-💼 Proyectos / Experiencia
+### 💼 Proyectos / Experiencia
 
 Galería con más de 30 proyectos reales con mockup, tecnologías, repositorio y demo. Ver sección más abajo.
 
-📬 Contacto
+### 📬 Contacto
 
 Formulario de contacto + agenda de reunión vía Google Calendar + WhatsApp directo.
 
-💼 Proyectos destacados
+---
 
-ProyectoAñoTecnologíasDemoEncriptador de Texto2023HTML · CSS · JSVer demoFunnel B-ECO2023HTML · CSS · JSVer demoPortfolio V12023HTML · CSS · JS · PHPVer demoPokedex2023HTML · CSS · JS (API)Ver demoApeperia2023HTML · CSSVer demoUnCommon Landipage2023HTML · CSS · JSVer demoE-Commerce Cómeme2022Shopify · JSVer demoNanakutzi Mezcal2023WordPress · ElementorVer demoPain & Injury Clinic2022WordPress · GutenbergVer demoCuttux2021WordPress · ElementorVer demoEpicKube Store2023WordPress · Elementor · WooCommerceVer demoCCP Latinoamérica2025WordPress · ElementorVer demoAcademia ALIVED2025WordPress · ElementorVer demoPlataforma Virtual RIEC2025WordPressVer demoISUAN2026HTML · CSS · JSVer demoRIEC2026WordPress · ElementorVer demo
+## 💼 Proyectos destacados
 
-🎓 Formación Académica
+| Proyecto                | Año  | Tecnologías                         | Demo                                                                    |
+| ----------------------- | ---- | ----------------------------------- | ----------------------------------------------------------------------- |
+| Encriptador de Texto    | 2023 | HTML · CSS · JS                     | [Ver demo](https://giomerida.github.io/challenge-encriptador/)          |
+| Funnel B-ECO            | 2023 | HTML · CSS · JS                     | [Ver demo](https://giomerida.github.io/funnel-beco/)                    |
+| Portfolio V1            | 2023 | HTML · CSS · JS · PHP               | [Ver demo](https://giomerida.github.io/challenge-portafolio.github.io/) |
+| Pokedex                 | 2023 | HTML · CSS · JS (API)               | [Ver demo](https://giomerida.github.io/pokedex/)                        |
+| Apeperia                | 2023 | HTML · CSS                          | [Ver demo](https://giomerida.github.io/apeperia/)                       |
+| UnCommon Landipage      | 2023 | HTML · CSS · JS                     | [Ver demo](https://giomerida.github.io/uncommon/)                       |
+| E-Commerce Cómeme       | 2022 | Shopify · JS                        | [Ver demo](https://comeme.com.mx)                                       |
+| Nanakutzi Mezcal        | 2023 | WordPress · Elementor               | [Ver demo](http://nanakutzimezcal.com/)                                 |
+| Pain & Injury Clinic    | 2022 | WordPress · Gutenberg               | [Ver demo](https://painandinjuryclinicofutah.com)                       |
+| Cuttux                  | 2021 | WordPress · Elementor               | [Ver demo](https://www.cuttux.com/)                                     |
+| EpicKube Store          | 2023 | WordPress · Elementor · WooCommerce | [Ver demo](https://epickubestore.com/)                                  |
+| CCP Latinoamérica       | 2025 | WordPress · Elementor               | [Ver demo](https://www.ccplatinoamerica.com/)                           |
+| Academia ALIVED         | 2025 | WordPress · Elementor               | [Ver demo](https://www.academiaalived.com/)                             |
+| Plataforma Virtual RIEC | 2025 | WordPress                           | [Ver demo](http://plataformavirtualriec.com)                            |
+| ISUAN                   | 2026 | HTML · CSS · JS                     | [Ver demo](https://giomerida.github.io/isuan/)                          |
+| RIEC                    | 2026 | WordPress · Elementor               | [Ver demo](http://corporativoriec.com/riec/)                            |
 
-InstituciónTítulo / CursoAñoEstadoFray Bartolomé de las CasasLic. en Diseño Gráfico2014✅ GraduadoAlura Latam (Oracle ONE G5)Formación en Front-End2023✅ GraduadoHubSpot AcademyInbound Marketing2024✅ CertificadoGoogleComercio Electrónico2025✅ CertificadoUNICACHLic. en Marketing Digital2022–2026🔄 En curso
+---
 
-📁 Estructura del proyecto
+## 🎓 Formación Académica
 
+| Institución                 | Título / Curso            | Año       | Estado         |
+| --------------------------- | ------------------------- | --------- | -------------- |
+| Fray Bartolomé de las Casas | Lic. en Diseño Gráfico    | 2014      | ✅ Graduado    |
+| Alura Latam (Oracle ONE G5) | Formación en Front-End    | 2023      | ✅ Graduado    |
+| HubSpot Academy             | Inbound Marketing         | 2024      | ✅ Certificado |
+| Google                      | Comercio Electrónico      | 2025      | ✅ Certificado |
+| UNICACH                     | Lic. en Marketing Digital | 2022–2026 | 🔄 En curso    |
+
+---
+
+## 📁 Estructura del proyecto
+
+```
 challenge-portafolio.github.io/
-├── index.html # Archivo principal del sitio
+├── index.html                  # Archivo principal del sitio
 ├── descarga/
-│ └── CV Gio Mérida Dev 2026.pdf # Curriculum Vitae descargable
+│   └── CV Gio Mérida Dev 2026.pdf  # Curriculum Vitae descargable
 └── assets/
-├── profile_2.png # Foto de perfil
-├── contact.png # Imagen sección contacto
-├── alura_logo.png # Logo Alura
-├── logo hubspot.png # Logo HubSpot
-├── google-ar21.svg # Logo Google
-├── logo_unicach.png # Logo UNICACH
-├── whatsapp.svg # Ícono WhatsApp flotante
-├── icon/ # Íconos de tecnologías y hobbies
-│ ├── html-5.png
-│ ├── css-3.png
-│ ├── secuencia-de-comandos-de-java.png
-│ ├── react logo.png
-│ ├── Angular.png
-│ ├── astrojs.svg
-│ ├── nodejs.png
-│ ├── php.png
-│ └── ...
-└── mockup/ # Mockups de los proyectos
-├── encriptador.png
-├── funnelbeco.png
-├── portafolio.png
-├── pokedex.png
-└── ...
+    ├── profile_2.png           # Foto de perfil
+    ├── contact.png             # Imagen sección contacto
+    ├── alura_logo.png          # Logo Alura
+    ├── logo hubspot.png        # Logo HubSpot
+    ├── google-ar21.svg         # Logo Google
+    ├── logo_unicach.png        # Logo UNICACH
+    ├── whatsapp.svg            # Ícono WhatsApp flotante
+    ├── icon/                   # Íconos de tecnologías y hobbies
+    │   ├── html-5.png
+    │   ├── css-3.png
+    │   ├── secuencia-de-comandos-de-java.png
+    │   ├── react logo.png
+    │   ├── Angular.png
+    │   ├── astrojs.svg
+    │   ├── nodejs.png
+    │   ├── php.png
+    │   └── ...
+    └── mockup/                 # Mockups de los proyectos
+        ├── encriptador.png
+        ├── funnelbeco.png
+        ├── portafolio.png
+        ├── pokedex.png
+        └── ...
+```
 
-📬 Contacto
+---
+
+## 📬 Contacto
 
 ¿Tienes un proyecto en mente o quieres colaborar?
 
-📧 Email: hi@giomerida.dev
-💼 LinkedIn: linkedin.com/giomerida
-🐙 GitHub: github.com/giomerida
-📸 Instagram: @giomerida92
-💬 WhatsApp: wa.link/no01a0
-📅 Agendar reunión: Google Calendar
+- 📧 **Email:** [hi@giomerida.dev](mailto:hi@giomerida.dev)
+- 💼 **LinkedIn:** [linkedin.com/giomerida](https://www.linkedin.com/giomerida)
+- 🐙 **GitHub:** [github.com/giomerida](https://github.com/giomerida)
+- 📸 **Instagram:** [@giomerida92](https://www.instagram.com/giomerida92/)
+- 💬 **WhatsApp:** [wa.link/no01a0](http://wa.link/no01a0)
+- 📅 **Agendar reunión:** [Google Calendar](https://calendar.app.google/BibQYTwPLu9LAFAD7)
+
+---
 
 <div align="center">
-© 2023 – 2026 Giovanni Mérida · GioDev · Todos los derechos reservados.
 
-Desarrollado como parte del Challenge Portfolio — Oracle ONE G5 · Alura Latam
+© 2023 – 2026 **Giovanni Mérida** · GioDev · Todos los derechos reservados.
+
+Desarrollado como parte del **Challenge Portfolio — Oracle ONE G5 · Alura Latam**
 
 </div>
