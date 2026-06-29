@@ -168,7 +168,7 @@ Formulario de contacto + agenda de reunión vía Google Calendar + WhatsApp dire
 | Alura Latam (Oracle ONE G5) | Formación en Front-End    | 2023      | ✅ Graduado    |
 | HubSpot Academy             | Inbound Marketing         | 2024      | ✅ Certificado |
 | Google                      | Comercio Electrónico      | 2025      | ✅ Certificado |
-| UNICACH                     | Lic. en Marketing Digital | 2022–2026 | 🔄 En curso    |
+| UNICACH                     | Lic. en Marketing Digital | 2022–2026 | ✅ Graduado    |
 
 ---
 
